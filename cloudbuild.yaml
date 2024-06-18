@@ -23,4 +23,4 @@ steps:
       - "--set-secrets=DB_HOST=db_host:latest,DB_USERNAME=db_username:latest,DB_PASSWORD=db_password:latest,DB_NAME=db_name:latest,SECRET_KEY=secret_key:latest, REFRESH_TOKEN_KEY=refresh_token_key:latest"
 images:
   - "us-central1-docker.pkg.dev/$PROJECT_ID/backend-artifact/backend-image:$COMMIT_SHA"
-logsBucket: "gs://test-buckets/logs"
+logsBucket: "gs://test-buckets1001/logs"
