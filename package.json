@@ -1,0 +1,28 @@
+{
+  "name": "koplak-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "node src/index.js",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Andre Gregori Sangari",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "fs": "^0.0.1-security",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.3.1",
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
