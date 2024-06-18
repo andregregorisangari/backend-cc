@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(logs);
 
 app.use(authRoute); // Auth
-app.use(userRoute); // User
+app.use(userRoute);
 
 app.listen(`${port}`, () => {
   console.log(`Server berjalan di port ${port}`);
